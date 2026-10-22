@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#F4F1EC">
-<title>AquaPilot</title>
+<title>Relèv'Eau</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -167,7 +167,7 @@ h2{font-size:1.1rem;font-weight:700}
 <div class="shell">
   <aside class="side">
     <div class="brand"><div class="logo"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 3s6 6.6 6 11a6 6 0 0 1-12 0c0-4.4 6-11 6-11z" fill="none" stroke="#fff" stroke-width="1.8"/></svg></div>
-      <div><b>AquaPilot</b><small>Eau potable</small></div></div>
+      <div><b>Relèv'Eau</b><small>Eau potable</small></div></div>
     <nav class="nav" id="sidenav"></nav>
     <div class="who"><span id="who"></span><br><a href="compte.html" style="color:var(--acc);font-weight:600;text-decoration:none">Mon compte</a> · <button onclick="logout()">Se déconnecter</button></div>
   </aside>
@@ -196,8 +196,8 @@ const M={
   r_piezo:{ic:'piezo',label:'Relever les piézos',desc:'Niveau de nappe',url:'saisie-piezos.html'},
   r_compteur:{ic:'compteur',label:'Index compteurs',desc:'Lecture d\'index',url:'compteurs.html'},
   r_uv:{ic:'lampe_uv',label:'Relevé UV',desc:'Compteur, irradiance',url:'uv.html#releve'},
-  maintenance:{ic:'maintenance',label:'Maintenance',desc:'Contrôles périodiques',items:['m_antibelier','m_visite','m_filtres','m_pi','m_pompes']},
-  m_chlore:{ic:'bouteille',label:'Bouteilles de chlore',desc:'Réserves, fin projetée, commande',url:'chlore.html'},
+  maintenance:{ic:'maintenance',label:'Maintenance',desc:'Contrôles périodiques',items:['m_chlore','m_uv','m_antibelier','m_visite','m_filtres','m_pi','m_pompes']},
+  m_chlore:{ic:'bouteille',label:'Bouteilles de chlore',desc:'Réserves, fin projetée, commande',url:'bouteille.html'},
   m_uv:{ic:'lampe_uv',label:'Lampes UV',desc:'Heures, quartz, irradiance',url:'uv.html'},
   m_antibelier:{ic:'antibelier',label:'Ballons',desc:'Anti-béliers et hydrophores',url:'ballons.html'},
   m_visite:{ic:'visite',label:'Visites d\'ouvrages',desc:'Réservoirs, stations'},
